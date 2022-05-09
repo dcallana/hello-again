@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=hello-again
+Comment=The hello-again test application
+Categories=Office;Amusement;
+
+Icon=bluetooth
+Exec=com.github.dcallana.hello-again
+Terminal=false
+s

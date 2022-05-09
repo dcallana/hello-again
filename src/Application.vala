@@ -1,7 +1,7 @@
 //  Application.vala
 
-public class MyApp : Gtk.Application {
-    public MyApp () {
+public class Application : Gtk.Application {
+    public Application () {
         Object (
             application_id: "com.github.dcallana.hello-again",
             flags: ApplicationFlags.FLAGS_NONE
@@ -14,14 +14,9 @@ public class MyApp : Gtk.Application {
             default_width = 800,
             title = "Hello Again"
         };
-        var label = new Gtk.Label ( "hell-again label" );
+        var label = new Gtk.Label ( "hello-again label" );
         main_window.add ( label );
         main_window.show_all ();
-        
-    }
-    
-    public static int main (string[] args) {
-        return new MyApp ().run ( args );
     }
 }
 
